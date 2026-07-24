@@ -1,0 +1,17 @@
+# Dependencias
+node_modules/
+
+# Producción
+dist/
+
+# Variables privadas
+.env
+
+# Sistema
+.DS_Store
+
+# Editor
+.vscode/
+
+.DS_Store
+imagenes-originales/
