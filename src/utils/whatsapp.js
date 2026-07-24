@@ -3,6 +3,7 @@ const numeroWhatsApp = (
 ).replace(/\D/g, "");
 
 export function abrirWhatsApp(mensaje) {
+  console.log(import.meta.env.VITE_WHATSAPP_NUMBER);
   if (!numeroWhatsApp) {
     window.alert(
       "No se configuró el número de WhatsApp.",
