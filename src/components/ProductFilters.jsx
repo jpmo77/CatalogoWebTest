@@ -119,7 +119,7 @@ export default function ProductFilters({
 
               {opciones.anchos.map((ancho) => (
                 <option key={ancho} value={ancho}>
-                  {ancho} cm
+                  {ancho} in
                 </option>
               ))}
             </select>
@@ -144,7 +144,7 @@ export default function ProductFilters({
 
               {opciones.largos.map((largo) => (
                 <option key={largo} value={largo}>
-                  {largo} cm
+                  {largo} in
                 </option>
               ))}
             </select>

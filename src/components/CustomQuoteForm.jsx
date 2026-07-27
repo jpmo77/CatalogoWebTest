@@ -220,7 +220,7 @@ export default function CustomQuoteForm() {
 
           <label>
             <span className="mb-2 block text-sm font-semibold">
-              Ancho (cm) *
+              Ancho (in) *
             </span>
 
             <input
@@ -244,7 +244,7 @@ export default function CustomQuoteForm() {
 
           <label>
             <span className="mb-2 block text-sm font-semibold">
-              Largo (cm) *
+              Largo (in) *
             </span>
 
             <input
@@ -400,7 +400,7 @@ export default function CustomQuoteForm() {
                 <p>
                   <strong>Medida:</strong>{" "}
                   {formulario.ancho} ×{" "}
-                  {formulario.largo} cm
+                  {formulario.largo} in
                 </p>
 
                 <p>

@@ -24,7 +24,7 @@ export default function ProductCard({
 
         <ProductImage
           src={producto.imagen}
-          alt={`${producto.nombre}, medida ${producto.ancho} por ${producto.largo} centímetros`}
+          alt={`${producto.nombre}, medida ${producto.ancho} por ${producto.largo} pulgadas`}
           className="h-full w-full object-contain transition duration-300 md:group-hover:scale-105"
         />
       </div>
@@ -39,7 +39,7 @@ export default function ProductCard({
         </h3>
 
         <p className="mt-2 text-xl font-black text-emerald-700">
-          {producto.ancho} × {producto.largo} cm
+          {producto.ancho} × {producto.largo} in
         </p>
 
         <dl className="mt-3 space-y-1 text-sm text-gray-600">

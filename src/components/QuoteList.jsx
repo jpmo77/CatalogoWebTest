@@ -88,7 +88,7 @@ export default function QuoteList({
 
                 <p className="mt-1 text-sm text-gray-600">
                   {producto.ancho} ×{" "}
-                  {producto.largo} cm ·{" "}
+                  {producto.largo} in ·{" "}
                   {producto.grosor}
                 </p>
 

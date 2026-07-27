@@ -23,8 +23,8 @@ const filtrosIniciales = {
   orden: "medida-asc"
 };
 
-const PRODUCTOS_INICIALES = 3;
-const PRODUCTOS_POR_CARGA = 3;
+const PRODUCTOS_INICIALES = 9;
+const PRODUCTOS_POR_CARGA = 9;
 
 const COTIZACION_STORAGE_KEY =
   "brilloplast-cotizacion";

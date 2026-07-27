@@ -106,7 +106,7 @@ export default function ProductModal({
           <div className="grid h-60 place-items-center bg-gray-50 p-5 sm:h-72 sm:p-8 md:h-auto md:min-h-full">
             <ProductImage
               src={producto.imagen}
-              alt={`${producto.nombre}, medida ${producto.ancho} por ${producto.largo} centímetros`}
+              alt={`${producto.nombre}, medida ${producto.ancho} por ${producto.largo} pulgadas`}
               loading="eager"
               className="max-h-125 h-full w-full object-contain"
             />
@@ -137,7 +137,7 @@ export default function ProductModal({
               className="mt-2 text-2xl font-black text-emerald-700 sm:mt-3 sm:text-3xl"
             >
               {producto.ancho} ×{" "}
-              {producto.largo} cm
+              {producto.largo} in
             </p>
 
             <dl className="mt-5 divide-y divide-gray-200 rounded-2xl border border-gray-200 sm:mt-7">
@@ -157,7 +157,7 @@ export default function ProductModal({
                 </dt>
 
                 <dd className="text-right text-sm font-bold text-gray-900">
-                  {producto.ancho} cm
+                  {producto.ancho} in
                 </dd>
               </div>
 
@@ -167,7 +167,7 @@ export default function ProductModal({
                 </dt>
 
                 <dd className="text-right text-sm font-bold text-gray-900">
-                  {producto.largo} cm
+                  {producto.largo} in
                 </dd>
               </div>
 
